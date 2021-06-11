@@ -143,14 +143,14 @@ namespace Caves
 			
 			Console.WriteLine(" ");
 			Console.WriteLine(" ");
-			Console.WriteLine("New World");
+			Console.WriteLine("World");
 			for(i = 0; i < altura; i++)
 			{
 				for(j = 0; j < largura; j++)
 				{
-					Console.Write(newWorld[i,j] + " ");
+					Console.Write(world[i,j]);
 				}
-				Console.WriteLine(" ");
+				Console.WriteLine("");
 			}			
         }
 		
